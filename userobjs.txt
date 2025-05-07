@@ -1,0 +1,119 @@
+user signed in using custom email/pass =>
+session
+{
+    "access_token": "eyJhbGciOiJIUzI1NiIsImtpZCI6IkJXc2syOEZiblh5UDNXcDgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2psdmh3Ymd4Zm1lcHpqeGxtd2NnLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJmMzAyODZiYi01ZWQxLTQ4YjctOGFjYS0yMjA0YjEzMDFhM2IiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzM5MjA5NTc3LCJpYXQiOjE3MzkyMDU5NzcsImVtYWlsIjoibmF2cm96c2luZ2g5QGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnsiZW1haWwiOiJuYXZyb3pzaW5naDlAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsInBob25lX3ZlcmlmaWVkIjpmYWxzZSwic3ViIjoiZjMwMjg2YmItNWVkMS00OGI3LThhY2EtMjIwNGIxMzAxYTNiIn0sInJvbGUiOiJhdXRoZW50aWNhdGVkIiwiYWFsIjoiYWFsMSIsImFtciI6W3sibWV0aG9kIjoicGFzc3dvcmQiLCJ0aW1lc3RhbXAiOjE3MzkyMDU5Nzd9XSwic2Vzc2lvbl9pZCI6IjE3OTM4ODlmLTIzYmUtNGViZS1hZjFmLWQ5MzQ0NjMxZjk3MyIsImlzX2Fub255bW91cyI6ZmFsc2V9.XeOcdTcT1wPlgq2w2F5yNfbYm9ndOCqgpQ6v8Wcpz1E",
+    "token_type": "bearer",
+    "expires_in": 3600,
+    "expires_at": 1739209577,
+    "refresh_token": "CxTTy9ew7_VdQ2i-IDpxIw",
+    "user": {
+        "id": "f30286bb-5ed1-48b7-8aca-2204b1301a3b",
+        "aud": "authenticated",
+        "role": "authenticated",
+        "email": "navrozsingh9@gmail.com",
+        "email_confirmed_at": "2025-02-10T16:39:47.237105Z",
+        "phone": "",
+        "confirmation_sent_at": "2025-02-10T16:39:35.573043Z",
+        "confirmed_at": "2025-02-10T16:39:47.237105Z",
+        "last_sign_in_at": "2025-02-10T16:46:17.269801012Z",
+        "app_metadata": {
+            "provider": "email",
+            "providers": [
+                "email"
+            ]
+        },
+        "user_metadata": {
+            "email": "navrozsingh9@gmail.com",
+            "email_verified": true,
+            "phone_verified": false,
+            "sub": "f30286bb-5ed1-48b7-8aca-2204b1301a3b"
+        },
+        "identities": [
+            {
+                "identity_id": "58ce1a57-51ab-4791-a01d-518606bf45e5",
+                "id": "f30286bb-5ed1-48b7-8aca-2204b1301a3b",
+                "user_id": "f30286bb-5ed1-48b7-8aca-2204b1301a3b",
+                "identity_data": {
+                    "email": "navrozsingh9@gmail.com",
+                    "email_verified": true,
+                    "phone_verified": false,
+                    "sub": "f30286bb-5ed1-48b7-8aca-2204b1301a3b"
+                },
+                "provider": "email",
+                "last_sign_in_at": "2025-02-10T16:39:35.569369Z",
+                "created_at": "2025-02-10T16:39:35.569415Z",
+                "updated_at": "2025-02-10T16:39:35.569415Z",
+                "email": "navrozsingh9@gmail.com"
+            }
+        ],
+        "created_at": "2025-02-10T16:39:35.562968Z",
+        "updated_at": "2025-02-10T16:46:17.27221Z",
+        "is_anonymous": false
+    }
+}
+
+user signed in using google email/pass=>
+session
+{
+    "provider_token": "ya29.a0AXeO80SLMNPgor2pz0dpy4vU5G3j1UU8om1Rp0guZEye1uruusETMvq8tKJDmcSm6rkl5iXS99H9aiEKEDGIHvTlJhVrUszAZaOMwrQtRQy6zqhUC4bVHLhQkQ-IgUVG1sbom2LkljVGXdKTd20PNzTOuH6uZWyQz1n3RTMPmwaCgYKAXQSARESFQHGX2Mi4HxeGB-XmJJM0yTCCeCHww0177",
+    "access_token": "eyJhbGciOiJIUzI1NiIsImtpZCI6IkJXc2syOEZiblh5UDNXcDgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2psdmh3Ymd4Zm1lcHpqeGxtd2NnLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI2NzNiNjY1MC1lZmFhLTQ3YWUtOGI2Yy1jNjdmNDYzOWJkZjEiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzM5MjA5NzI0LCJpYXQiOjE3MzkyMDYxMjQsImVtYWlsIjoic2luZ2hpbXJvejUwQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZ29vZ2xlIiwicHJvdmlkZXJzIjpbImdvb2dsZSJdfSwidXNlcl9tZXRhZGF0YSI6eyJhdmF0YXJfdXJsIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSmVaUkRqUEdEQnY2MXo1eXczNHpvdEphNHZ5NmVQT3FieUZCaUQ5ZzJKZ2tMSUJnPXM5Ni1jIiwiZW1haWwiOiJzaW5naGltcm96NTBAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZ1bGxfbmFtZSI6IkFyeWFuIEt1a3JlamEiLCJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYW1lIjoiQXJ5YW4gS3VrcmVqYSIsInBob25lX3ZlcmlmaWVkIjpmYWxzZSwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FDZzhvY0plWlJEalBHREJ2NjF6NXl3MzR6b3RKYTR2eTZlUE9xYnlGQmlEOWcySmdrTElCZz1zOTYtYyIsInByb3ZpZGVyX2lkIjoiMTEyNTM4NzQxMzI2NzM0OTUzODc5Iiwic3ViIjoiMTEyNTM4NzQxMzI2NzM0OTUzODc5In0sInJvbGUiOiJhdXRoZW50aWNhdGVkIiwiYWFsIjoiYWFsMSIsImFtciI6W3sibWV0aG9kIjoib2F1dGgiLCJ0aW1lc3RhbXAiOjE3MzkyMDYxMjR9XSwic2Vzc2lvbl9pZCI6ImVkYTI2MmYwLWYzNjQtNDI0Yy05ZmIzLWE0Zjc1ZWZmOGI2YiIsImlzX2Fub255bW91cyI6ZmFsc2V9.tnNNVjZ7nXT4qgWwhxrvSc722eqtp0djLAUoX9M0N6I",
+    "expires_in": 3600,
+    "expires_at": 1739209724,
+    "refresh_token": "mMKcL65hI8nPc7g09Eyzcw",
+    "token_type": "bearer",
+    "user": {
+        "id": "673b6650-efaa-47ae-8b6c-c67f4639bdf1",
+        "aud": "authenticated",
+        "role": "authenticated",
+        "email": "singhimroz50@gmail.com",
+        "email_confirmed_at": "2025-02-09T12:35:14.93659Z",
+        "phone": "",
+        "confirmed_at": "2025-02-09T12:35:14.93659Z",
+        "last_sign_in_at": "2025-02-10T16:48:44.871111Z",
+        "app_metadata": {
+            "provider": "google",
+            "providers": [
+                "google"
+            ]
+        },
+        "user_metadata": {
+            "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocJeZRDjPGDBv61z5yw34zotJa4vy6ePOqbyFBiD9g2JgkLIBg=s96-c",
+            "email": "singhimroz50@gmail.com",
+            "email_verified": true,
+            "full_name": "Aryan Kukreja",
+            "iss": "https://accounts.google.com",
+            "name": "Aryan Kukreja",
+            "phone_verified": false,
+            "picture": "https://lh3.googleusercontent.com/a/ACg8ocJeZRDjPGDBv61z5yw34zotJa4vy6ePOqbyFBiD9g2JgkLIBg=s96-c",
+            "provider_id": "112538741326734953879",
+            "sub": "112538741326734953879"
+        },
+        "identities": [
+            {
+                "identity_id": "98a14a73-baed-4069-ae9d-a2500b330341",
+                "id": "112538741326734953879",
+                "user_id": "673b6650-efaa-47ae-8b6c-c67f4639bdf1",
+                "identity_data": {
+                    "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocJeZRDjPGDBv61z5yw34zotJa4vy6ePOqbyFBiD9g2JgkLIBg=s96-c",
+                    "email": "singhimroz50@gmail.com",
+                    "email_verified": true,
+                    "full_name": "Aryan Kukreja",
+                    "iss": "https://accounts.google.com",
+                    "name": "Aryan Kukreja",
+                    "phone_verified": false,
+                    "picture": "https://lh3.googleusercontent.com/a/ACg8ocJeZRDjPGDBv61z5yw34zotJa4vy6ePOqbyFBiD9g2JgkLIBg=s96-c",
+                    "provider_id": "112538741326734953879",
+                    "sub": "112538741326734953879"
+                },
+                "provider": "google",
+                "last_sign_in_at": "2025-02-09T12:35:14.929675Z",
+                "created_at": "2025-02-09T12:35:14.929732Z",
+                "updated_at": "2025-02-10T16:48:44.866059Z",
+                "email": "singhimroz50@gmail.com"
+            }
+        ],
+        "created_at": "2025-02-09T12:35:14.916021Z",
+        "updated_at": "2025-02-10T16:48:44.872959Z",
+        "is_anonymous": false
+    }
+}
