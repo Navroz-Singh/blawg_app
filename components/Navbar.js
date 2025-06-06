@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { FaSun, FaMoon, FaTimes, FaBars } from 'react-icons/fa';
 import { UseUsername } from '@/app/Providers/UsernameProvider';
 import { supabase } from '@/lib/supabase';
+import UserDropdownMenu from './UserDropdownMenu';
 
 export default function Navbar() {
     const { theme, toggleTheme } = useContext(ThemeContext);
@@ -203,11 +204,13 @@ export default function Navbar() {
                                 </svg>
                             </div>
                         ) : session ? (
-                            <Link href="/profile">
-                                <div className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 text-white font-bold text-lg shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl">
-                                    {blawgUsername.toUpperCase()[0]}
-                                </div>
-                            </Link>
+                            <UserDropdownMenu 
+                                trigger={
+                                    <div className="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-purple-500 text-white font-bold text-lg shadow-lg transform transition-all duration-200 hover:scale-105 hover:shadow-xl">
+                                        {blawgUsername.toUpperCase()[0]}
+                                    </div>
+                                }
+                            />
                         ) : (
                             <Link href='/login'>
                                 <button className='px-4 py-2 font-bold text-gray-700 rounded-lg bg-gray-100 hover:bg-gray-200 dark:text-white dark:bg-gray-700 dark:hover:bg-gray-800'>

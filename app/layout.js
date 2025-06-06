@@ -1,11 +1,10 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import ThemeProvider from "./Providers/ThemeProvider";
-import Navbar from "@/components/Navbar";
+import NavbarWrapper from "@/components/NavbarWrapper";
 import { cookies } from "next/headers";
 import AuthProvider from "./Providers/AuthProvider";
 import UsernameProvider from "./Providers/UsernameProvider";
-
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -30,6 +29,7 @@ export default async function RootLayout({ children }) {
     };
 
     const theme = await getTheme();
+    
     return (
         <html lang="en" className={theme === 'dark' ? 'dark' : ''}>
             <body
@@ -38,7 +38,7 @@ export default async function RootLayout({ children }) {
                 <ThemeProvider initialTheme={theme}>
                     <AuthProvider>
                         <UsernameProvider>
-                            <Navbar />
+                            <NavbarWrapper />
                             {children}
                         </UsernameProvider>
                     </AuthProvider>

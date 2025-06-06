@@ -24,7 +24,7 @@
     "cookies-next": "^5.1.0",
     "firebase": "^11.3.0",
     "highlight.js": "^11.11.1",
-    "next": "^15.2.3",
+    "next": "^15.3.3",
     "next-mdx-remote": "^5.0.0",
     "quill": "^2.0.3",
     "react": "^19.0.0",
