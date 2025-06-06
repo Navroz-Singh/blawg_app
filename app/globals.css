@@ -104,3 +104,97 @@
         transform: translateX(0);
     }
 }
+
+/* Custom scrollbar styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.5);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 130, 246, 0.8);
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(96, 165, 250, 0.5);
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(96, 165, 250, 0.8);
+}
+
+/* Highlight effect for sections */
+@keyframes highlight {
+  0% { background-color: rgba(59, 130, 246, 0.2); }
+  100% { background-color: transparent; }
+}
+
+.highlight-section {
+  animation: highlight 1.5s ease-out;
+  position: relative;
+}
+
+.highlight-section::before {
+  content: '';
+  position: absolute;
+  left: -16px;
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background-color: rgba(59, 130, 246, 0.7);
+  border-radius: 2px;
+}
+
+/* Prose content with section highlighting */
+.prose h1, 
+.prose h2, 
+.prose h3, 
+.prose h4, 
+.prose h5, 
+.prose h6 {
+  scroll-margin-top: 180px; /* Increased margin for smooth scrolling to headings */
+  padding: 0.5rem 0;
+  border-radius: 0.25rem;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+/* Hover effect on headings */
+.prose h1:hover, 
+.prose h2:hover, 
+.prose h3:hover, 
+.prose h4:hover, 
+.prose h5:hover, 
+.prose h6:hover {
+  background-color: rgba(59, 130, 246, 0.05);
+}
+
+/* Ripple animation for buttons */
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+.animate-ripple {
+  animation: ripple 0.8s ease-out;
+}

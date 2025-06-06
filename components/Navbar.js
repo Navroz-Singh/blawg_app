@@ -83,17 +83,6 @@ export default function Navbar() {
                             </span>
                         </Link>
                     </li>
-                    <li key="dashboard">
-                        <Link
-                            href="/dashboard"
-                            className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white relative group transition-colors"
-                        >
-                            <span className="relative">
-                                Dashboard
-                                <span className="absolute bottom-[-1.4rem] left-0 h-[3px] bg-current w-0 transition-all duration-300 group-hover:w-full"></span>
-                            </span>
-                        </Link>
-                    </li>
                 </ul>
 
 
@@ -145,18 +134,7 @@ export default function Navbar() {
                                 </span>
                             </Link>
                         </li>
-                        <li key='Dashboard' className="mb-4">
-                            <Link
-                                href='/dashboard'
-                                onClick={() => setIsOpen(false)}
-                                className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white relative group transition-colors"
-                            >
-                                <span className="relative">
-                                    Dashboard
-                                    <span className="absolute bottom-[-0.3rem] left-0 h-[2px] bg-current w-0 transition-all duration-300 group-hover:w-full"></span>
-                                </span>
-                            </Link>
-                        </li>
+                        
                     </ul>
                 </div>
 
